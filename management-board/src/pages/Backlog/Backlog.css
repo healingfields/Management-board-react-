@@ -1,0 +1,21 @@
+.backlog-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.backlog-container>h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid darkcyan;
+    padding-bottom: 10px;
+}
+
+.tasks.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5%;
+
+}
