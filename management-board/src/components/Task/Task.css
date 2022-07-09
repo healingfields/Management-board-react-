@@ -1,0 +1,11 @@
+.task-container {
+    padding: 2%;
+    margin: 2% 1%;
+
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.task-container>h3 {
+    color: rebeccapurple;
+}
