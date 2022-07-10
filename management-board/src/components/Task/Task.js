@@ -1,9 +1,11 @@
 import React from 'react'
 import './Task.css'
 
-function Task({ body, title }) {
+function Task({ id, body, title, onDragStart }) {
     return (
-        <div className='task-container'>
+        <div className='task-container'
+            draggable
+            onDragStart={(e) => onDragStart(e, id)}>
             <h3>{title}</h3>
             <p>{body}</p>
         </div>
