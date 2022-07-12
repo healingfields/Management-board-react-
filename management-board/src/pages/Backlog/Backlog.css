@@ -1,21 +1,5 @@
-.backlog-container {
-    display: flex;
-    flex-direction: column;
-    margin: 5%;
-}
+.backlog-container {}
 
-.backlog-container>h2 {
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid darkcyan;
-    padding-bottom: 10px;
-}
+.backlog-container>h2 {}
 
-.tasks.wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 5%;
-
-}
+.tasks.wrapper {}

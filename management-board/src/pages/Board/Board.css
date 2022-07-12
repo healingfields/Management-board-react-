@@ -1,5 +1,5 @@
 .board-container {
-    margin: 2rem 1rem;
+    margin: 2rem rem;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

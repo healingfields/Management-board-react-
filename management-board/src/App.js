@@ -5,7 +5,7 @@ import Board from './pages/Board/Board';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Header />
       <Board />
       <Backlog />
